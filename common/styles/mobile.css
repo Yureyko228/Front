@@ -1,0 +1,17 @@
+@media screen and (max-width: 500px) {
+    .logo-burger {
+        top: 20px;
+        left: 20px;
+    }
+    .logo-burger img{
+        width: 75%;
+        height: 75%;
+    }
+    input ~ nav > ul > li > a {
+        font-size: 17px;
+        padding: 20px;
+    }
+    input ~ nav > ul {
+        top: 20%;
+    }
+}
