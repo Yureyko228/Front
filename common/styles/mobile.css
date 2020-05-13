@@ -12,6 +12,9 @@
         padding: 20px;
     }
     input ~ nav > ul {
-        top: 20%;
+        top: 30%;
+    }
+    input:checked ~ nav {
+        height: 35%;
     }
 }

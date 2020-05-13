@@ -3,6 +3,9 @@
     margin: 0;
     /*border: 1px red solid;*/
 }
+body{
+    background: #fff;
+}
 .container{
     display: flex;
     width: 1170px;
