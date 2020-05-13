@@ -53,3 +53,30 @@ header{
 .main-menu li a:hover{
     border-bottom: aqua 2px solid;
 }
+
+
+.info-block{
+    height: 380px;
+    background: #2a2a2a;
+}
+.info-block .container{
+    flex-direction: column;
+    font-family: "Berlin Sans FB";
+    width: auto;
+    height: 100%;
+    align-items: center;
+    justify-content: flex-end;
+    word-wrap: break-word;
+}
+.info-block p:first-child{
+    text-align: center;
+    font-size: 45px;
+    color: #fff;
+}
+.info-block p:last-child{
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+    padding: 40px 0 70px 0;
+
+}
