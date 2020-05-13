@@ -3,18 +3,66 @@
         top: 20px;
         left: 20px;
     }
-    .logo-burger img{
+
+    .logo-burger img {
         width: 75%;
         height: 75%;
     }
+
     input ~ nav > ul > li > a {
         font-size: 17px;
         padding: 20px;
     }
+
     input ~ nav > ul {
         top: 30%;
     }
+
     input:checked ~ nav {
         height: 35%;
+    }
+
+    .text-RD {
+        font-size: 30px;
+        padding: 15px 0 20px 0px;
+    }
+
+    .info-round {
+        font-size: 20px;
+    }
+
+    .answer {
+        font-size: 15px;
+    }
+
+    .room-block {
+        padding: 15px;
+    }
+
+    .round-block button {
+        height: 70px;
+        width: 350px;
+        font-size: 25px;
+    }
+
+    .sorry-text {
+        padding: 15px 0 30px;
+    }
+
+    .rules-block {
+        background: #dfdfdf;
+        text-align: center;
+        padding: 0 10px 70px 10px;
+    }
+
+    .rules-block p {
+        font-family: "Segoe UI Symbol";
+        font-size: 17px;
+    }
+
+    .rules-block p:first-child {
+        font-size: 27px;
+        padding: 20px;
+
     }
 }

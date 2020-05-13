@@ -81,5 +81,54 @@ header{
     font-size: 20px;
     color: #fff;
     padding: 40px 0 70px 0;
-
 }
+
+.round-block{
+    font-family: "Segoe UI Symbol";
+    display: flex;
+}
+.round-block .container{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.text-RD{
+    font-size: 35px;
+    padding: 30px 0 40px 0px;
+}
+.info-round{
+    font-size: 20px;
+}
+.answer{
+    font-size: 16px;
+    text-align: center;
+}
+.room-block{
+    padding: 30px ;
+}
+.round-block button{
+    height: 100px;
+    width: 430px;
+    border-radius: 3px;
+    color: #fff;
+    background: #e84545;
+    font-size: 30px;
+}
+.sorry-text{
+    padding: 25px 0  70px;
+}
+
+.rules-block{
+    background: #dfdfdf;
+    text-align: center;
+    padding: 0 15px 150px 15px;
+}
+.rules-block p{
+    font-family: "Segoe UI Symbol";
+    font-size: 20px;
+}
+.rules-block p:first-child{
+    font-size: 35px;
+    padding: 30px;
+}
+
