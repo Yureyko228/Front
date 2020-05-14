@@ -18,6 +18,7 @@ header{
     position: sticky;
     top: 0;
     background: #fff;
+    border-bottom: 1px gray solid;
 }
 .burger-menu{
     display: none;
@@ -169,4 +170,46 @@ header{
 }
 .contact-block ul li{
     padding: 0px 10px 0 0;
+}
+footer{
+    background: #313454;
+    text-align: center;
+}
+footer p{
+    color: #77777b;
+    padding: 15px;
+}
+
+ /*LEADER BOARD*/
+.leader-bord-block{
+    display: flex;
+}
+.leader-bord-block .container{
+    align-items: center;
+    flex-direction: column;
+    font-family: "Segoe UI Symbol";
+    font-size: 17px;
+}
+.leader-bord-block p{
+    font-size: 30px;
+    padding: 20px;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+.leader-bord-block li{
+    padding: 15px;
+    text-align: center;
+}
+.leader-bord-block ol{
+    padding-bottom: 25px;
+}
+.round-bord-block{
+    background: #efefed;
+}
+.upcoming{
+    background: #dfdfdf;
+}
+.upcoming ol{
+    list-style-type: none;
 }

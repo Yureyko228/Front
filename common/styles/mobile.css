@@ -85,4 +85,21 @@
     .contact-block ul li{
         padding: 0px 5px 0 0;
     }
+
+    /*leader board*/
+    .leader-bord-block .container{
+        font-size: 17px;
+    }
+    .leader-bord-block p{
+        font-size: 25px;
+        padding: 15px;
+
+    }
+    .leader-bord-block li{
+        padding: 10px;
+    }
+    .leader-bord-block ol{
+        padding-bottom: 20px;
+    }
+
 }
