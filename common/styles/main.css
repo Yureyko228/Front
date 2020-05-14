@@ -14,7 +14,10 @@ body{
 }
 header{
     display: flex;
-    height: 100px;
+    height: 80px;
+    position: sticky;
+    top: 0;
+    background: #fff;
 }
 .burger-menu{
     display: none;
@@ -41,7 +44,10 @@ header{
     height: 100%;
     color: #404040;
 }
-
+.main-menu li a img{
+    width: 75%;
+    height: 52px;
+}
 .main-menu li:last-child{
     justify-content: flex-end;
     align-items: center;
@@ -132,3 +138,35 @@ header{
     padding: 30px;
 }
 
+.contact-block{
+    background: #3a3e64;
+    display: flex;
+}
+.contact-block .container{
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.contact-block .container div{
+    text-align: center;
+    width: 30%;
+    font-family: "Segoe UI Symbol";
+    color: #fff;
+    font-size: 20px;
+    margin: 50px 0 50px 0;
+}
+.contact-block .container div p:last-child{
+    color: #adaebb;
+    font-size: 17px;
+    padding: 25px 0 25px 0;
+}
+.contact-block ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: center;
+    margin-top: 20px;
+}
+.contact-block ul li{
+    padding: 0px 10px 0 0;
+}

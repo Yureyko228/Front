@@ -41,7 +41,7 @@
 
     .round-block button {
         height: 70px;
-        width: 350px;
+        width: 250px;
         font-size: 25px;
     }
 
@@ -64,5 +64,25 @@
         font-size: 27px;
         padding: 20px;
 
+    }
+    .contact-block .container{
+        flex-direction: column;
+        justify-content: center;
+
+    }
+    .contact-block .container div{
+        width: 80%;
+        font-size: 15px;
+        margin: 25px 0 0px 0;
+    }
+    .contact-block .container div p:last-child{
+        font-size: 15px;
+        padding: 15px 0 15px 0;
+    }
+    .contact-block ul{
+        margin-top: 10px;
+    }
+    .contact-block ul li{
+        padding: 0px 5px 0 0;
     }
 }
