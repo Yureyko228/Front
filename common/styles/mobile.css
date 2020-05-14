@@ -101,5 +101,27 @@
     .leader-bord-block ol{
         padding-bottom: 20px;
     }
+    .profile{
 
+        padding-bottom: 30px;
+    }
+    .profile .container{
+
+        font-size: 13px;
+
+    }
+    .profile-info{
+        margin: 50px 0 25px 0;
+
+    }
+    .profile-info div p{
+        padding-bottom: 15px;
+    }
+    .name-page{
+        font-size: 25px;
+        margin-top: 15px;
+    }
+    .edit-btn{
+        padding: 10px;
+    }
 }

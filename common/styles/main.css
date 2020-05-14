@@ -213,3 +213,40 @@ footer p{
 .upcoming ol{
     list-style-type: none;
 }
+
+/*profile*/
+
+.profile{
+    display: flex;
+    padding-bottom: 50px;
+}
+.profile .container{
+    font-family: "Century Gothic";
+    font-size: 17px;
+    justify-content: center;
+}
+.profile-info{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    margin-top: 100px;
+    justify-content: space-around;
+}
+.profile-info div p{
+    padding-bottom: 30px;
+}
+.name-page{
+    font-size: 35px;
+    margin-top: 35px;
+    position: absolute;
+}
+.edit-btn{
+    align-self: flex-end;
+    position: absolute;
+    padding: 10px;
+    color: #2a2a2a;
+    border: #e84545 2px solid;
+    border-radius: 5px;
+
+
+}
