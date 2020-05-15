@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="common/styles/tablet.css">
     <link rel="stylesheet" href="common/styles/mobile.css">
     <link rel="stylesheet" href="common/styles/fonts.css">
-    <script src="main.js" defer></script>
+    <script src="main.js"></script>
     <title>Profile</title>
 </head>
 <body>
@@ -75,10 +75,59 @@
                     <p><b>ADDRESS: </b>Ukraine, Kyiv, Gogol Str. 75</p>
                 </div>
             </div>
-            <a href="#" class="edit-btn">Edit</a>
+            <button class="edit-btn" onclick="visibleEdit();">Edit</button>
         </div>
     </section>
-
+    <section class="edit-profile">
+        <div class="container">
+            <p class="name-edit">EDIT PROFILE</p><br>
+            <form action="">
+                <table>
+                    <tr>
+                        <td><label for="fName"><b>FIRST NAME: </b></label></td>
+                        <td><input type="text" id="fName"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="lName"><b>LAST NAME: </b></label></td>
+                        <td><input type="text" id="lName" ></td>
+                    </tr>
+                    <tr>
+                        <td><label for="gender"><b>GENDER: </b></label></td>
+                        <td><input type="text" id="gender"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="school"><b>SCHOOL NAME: </b></label></td>
+                        <td><input type="text" id="school"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="age"><b>AGE GROUP: </b></label></td>
+                        <td><input type="text" id="age"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="grade"><b>GRADE: </b></label></td>
+                        <td><input type="text" id="grade"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="email"><b>EMAIL: </b></label></td>
+                        <td><input type="text" id="email"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="mobile"><b>MOBILE NUMBER: </b></label></td>
+                        <td><input type="text" id="mobile"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="nationality"><b>NATIONALITY: </b></label></td>
+                        <td><input type="text" id="nationality"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="address"><b>ADDRESS: </b></label></td>
+                        <td><input type="text" id="address"></td>
+                    </tr>
+                </table>
+                <button class="save-btn" type="submit">Save</button>
+            </form>
+        </div>
+    </section>
     <section class="contact-block">
         <div class="container">
             <div>

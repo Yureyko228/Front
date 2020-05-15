@@ -244,10 +244,48 @@ footer p{
 .edit-btn{
     align-self: flex-end;
     position: absolute;
+    font-size: 20px;
     padding: 10px;
     color: #2a2a2a;
     border: #e84545 2px solid;
     border-radius: 5px;
+    z-index: 5;
+}
+.edit-profile{
+    display: none;
+}
+.edit-profile .container{
+    flex-direction: column;
+    font-family: "Century Gothic";
+}
+.name-edit{
+    text-align: center;
+    font-size: 35px;
+    margin-top: 35px;
+}
+.edit-profile form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+.edit-profile label{
 
-
+}
+.edit-profile input{
+    margin-left: 10px;
+    padding: 5px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+.edit-profile td{
+    padding: 10px 25px 10px 25px;
+}
+.save-btn{
+    font-size: 20px;
+    padding: 10px;
+    margin: 20px;
+    color: #2a2a2a;
+    border: #e84545 2px solid;
+    border-radius: 5px;
 }

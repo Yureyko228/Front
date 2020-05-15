@@ -65,63 +65,94 @@
         padding: 20px;
 
     }
-    .contact-block .container{
+
+    .contact-block .container {
         flex-direction: column;
         justify-content: center;
 
     }
-    .contact-block .container div{
+
+    .contact-block .container div {
         width: 80%;
         font-size: 15px;
         margin: 25px 0 0px 0;
     }
-    .contact-block .container div p:last-child{
+
+    .contact-block .container div p:last-child {
         font-size: 15px;
         padding: 15px 0 15px 0;
     }
-    .contact-block ul{
+
+    .contact-block ul {
         margin-top: 10px;
     }
-    .contact-block ul li{
+
+    .contact-block ul li {
         padding: 0px 5px 0 0;
     }
 
     /*leader board*/
-    .leader-bord-block .container{
+    .leader-bord-block .container {
         font-size: 17px;
     }
-    .leader-bord-block p{
+
+    .leader-bord-block p {
         font-size: 25px;
         padding: 15px;
 
     }
-    .leader-bord-block li{
+
+    .leader-bord-block li {
         padding: 10px;
     }
-    .leader-bord-block ol{
+
+    .leader-bord-block ol {
         padding-bottom: 20px;
     }
-    .profile{
+
+    .profile {
 
         padding-bottom: 30px;
     }
-    .profile .container{
+
+    .profile .container {
 
         font-size: 13px;
 
     }
-    .profile-info{
+
+    .profile-info {
         margin: 50px 0 25px 0;
 
     }
-    .profile-info div p{
+
+    .profile-info div p {
         padding-bottom: 15px;
     }
-    .name-page{
+
+    .name-page {
         font-size: 25px;
         margin-top: 15px;
     }
-    .edit-btn{
+
+    .edit-btn {
         padding: 10px;
+    }
+
+    .name-edit {
+        text-align: center;
+        font-size: 25px;
+        margin-top: 15px;
+    }
+    .edit-profile input {
+        width: 95%;
+        font-size: 13px;
+    }
+
+    .edit-profile td {
+        padding: 5px;
+    }
+    footer{
+        font-size: 13px;
     }
 }
