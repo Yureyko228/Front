@@ -14,7 +14,7 @@ body{
 }
 header{
     display: flex;
-    height: 80px;
+    height: 60px;
     position: sticky;
     top: 0;
     background: #fff;
@@ -47,7 +47,7 @@ header{
 }
 .main-menu li a img{
     width: 75%;
-    height: 52px;
+
 }
 .main-menu li:last-child{
     justify-content: flex-end;
@@ -128,10 +128,11 @@ header{
 .rules-block{
     background: #dfdfdf;
     text-align: center;
-    padding: 0 15px 150px 15px;
+    padding: 0 15px 70px 15px;
+    font-family: "Segoe UI Symbol";
+    font-size: 20px;
 }
 .rules-block p{
-    font-family: "Segoe UI Symbol";
     font-size: 20px;
 }
 .rules-block p:first-child{
